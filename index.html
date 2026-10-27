@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELMAR Samuel | Portfolio - Génie Civil HESTIM</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lien vers votre feuille de style personnalisée -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- En-tête / Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/85 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-emerald-400 flex items-center gap-2">
+                <i class="fa-solid fa-building-columns"></i> DELMAR SAMUEL
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#accueil" class="hover:text-emerald-400 transition-colors">Accueil</a>
+                <a href="#apropos" class="hover:text-emerald-400 transition-colors">À Propos</a>
+                <a href="#competences" class="hover:text-emerald-400 transition-colors">Compétences</a>
+                <a href="#parcours" class="hover:text-emerald-400 transition-colors">Parcours</a>
+                <a href="#contact" class="px-4 py-2 bg-emerald-500 text-slate-950 font-bold rounded-lg hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/20">Contact</a>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden text-2xl text-slate-300 hover:text-emerald-400 focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 py-4 space-y-3">
+            <a href="#accueil" class="block hover:text-emerald-400 py-1">Accueil</a>
+            <a href="#apropos" class="block hover:text-emerald-400 py-1">À Propos</a>
+            <a href="#competences" class="block hover:text-emerald-400 py-1">Compétences</a>
+            <a href="#parcours" class="block hover:text-emerald-400 py-1">Parcours</a>
+            <a href="#contact" class="block text-emerald-400 font-bold py-1">Contact</a>
+        </div>
+    </header>
+
+    <!-- Section Accueil (Hero) -->
+    <section id="accueil" class="min-h-screen flex items-center justify-center pt-24 px-6 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto text-center z-10 animate-fade-in">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm mb-6 font-medium">
+                <span>🇬🇦 Gabon</span>
+                <span>•</span>
+                <span>HESTIM CPGE Génie Civil (2026-2027)</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Élève-Ingénieur en <span class="text-emerald-400">Génie Civil</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Guidé par une rigueur scientifique (Bac D 2026) et en formation préparatoire à HESTIM, je me passionne pour la mécanique des structures, la modélisation et le génie urbain.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#parcours" class="px-6 py-3 bg-emerald-500 text-slate-950 font-bold rounded-xl hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/20 flex items-center gap-2">
+                    <i class="fa-solid fa-compass-drafting"></i> Découvrir mon parcours
+                </a>
+                <a href="#contact" class="px-6 py-3 bg-slate-900 border border-slate-700 text-slate-200 font-semibold rounded-xl hover:border-emerald-400 transition-all">
+                    Me contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="py-24 px-6 bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">À Propos de <span class="text-emerald-400">Moi</span></h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-slate-300">
+                    <p class="leading-relaxed">
+                        Je suis <strong class="text-white">DELMAR Samuel</strong>, originaire du Gabon 🇬🇦. Après avoir obtenu mon <strong class="text-white">Baccalauréat Scientifique (Série D) en 2026</strong>, j'ai rejoint les bancs de l'école d'ingénierie <strong class="text-white">HESTIM</strong> au Maroc pour l'année académique 2026-2027 en 1ère année de Classe Préparatoire Intégrée en Génie Civil.
+                    </p>
+                    <p class="leading-relaxed">
+                        Ma formation scientifique combinée à l'enseignement exigeant des CPGE me permet de développer un raisonnement analytique structuré, essentiel pour appréhender les enjeux complexes des infrastructures de demain.
+                    </p>
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="https://www.linkedin.com/in/samuel-delmar" target="_blank" class="px-4 py-2 bg-[#0077b5]/20 border border-[#0077b5]/40 text-[#0077b5] rounded-lg hover:bg-[#0077b5] hover:text-white transition-all flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin"></i> Profil LinkedIn
+                        </a>
+                        <a href="mailto:s.delmar@hestim.ma" class="px-4 py-2 bg-slate-800 border border-slate-700 text-slate-200 rounded-lg hover:border-emerald-400 transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-envelope"></i> s.delmar@hestim.ma
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid gap-6">
+                    <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl shadow-xl hover:border-emerald-500/40 transition-all">
+                        <div class="text-emerald-400 text-2xl font-bold mb-1">2026 - 2027</div>
+                        <div class="text-lg font-semibold text-white">Classe Préparatoire (CPGE) - HESTIM</div>
+                        <p class="text-sm text-slate-400 mt-2">1ère année de cycle préparatoire en Génie Civil. Consolidation des sciences de l'ingénieur, physique et mathématiques appliquées.</p>
+                    </div>
+                    <div class="p-6 bg-slate-900 border border-slate-800 rounded-2xl shadow-xl hover:border-emerald-500/40 transition-all">
+                        <div class="text-emerald-400 text-2xl font-bold mb-1">Session 2026</div>
+                        <div class="text-lg font-semibold text-white">Baccalauréat Scientifique (Série D)</div>
+                        <p class="text-sm text-slate-400 mt-2">Obtention du baccalauréat scientifique au Gabon 🇬🇦 avec une orientation approfondie en sciences de la vie, physique et chimie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="py-24 px-6 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Mes Domaines d'<span class="text-emerald-400">Apprentissage</span></h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-2xl hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Physique & Mécanique</h3>
+                    <p class="text-slate-400 text-sm">Étude de la cinématique, statique des fluides et principes fondamentaux de la mécanique théorique.</p>
+                </div>
+
+                <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-2xl hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Mathématiques d'Ingénierie</h3>
+                    <p class="text-slate-400 text-sm">Calcul différentiel, analyse vectorielle et algèbre linéaire appliqués à la résolution de problèmes physiques.</p>
+                </div>
+
+                <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-2xl hover:border-emerald-500/50 transition-all group">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 text-xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Introduction au Génie Civil</h3>
+                    <p class="text-slate-400 text-sm">Sensibilisation aux principes de construction, résistance des matériaux (RDM) et typologies d'ouvrages d'art.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Parcours & Projets -->
+    <section id="parcours" class="py-24 px-6 bg-slate-900/40 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Projets & <span class="text-emerald-400">Ambitions</span></h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-emerald-400 transition-all">
+                    <div class="text-emerald-400 text-sm font-semibold mb-2">Cycle Préparatoire • HESTIM</div>
+                    <h3 class="text-xl font-bold mb-3">Fondations des Sciences de l'Ingénieur</h3>
+                    <p class="text-slate-400 text-sm mb-6">Travaux pratiques et résolutions scientifiques appliqués aux matériaux et à la géométrie de structure dans le cadre du programme de CPGE 2026-2027.</p>
+                    <span class="inline-block px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">Sciences Intégrées</span>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-emerald-400 transition-all">
+                    <div class="text-emerald-400 text-sm font-semibold mb-2">Vision d'Avenir</div>
+                    <h3 class="text-xl font-bold mb-3">Infrastructures & Développement Durable</h3>
+                    <p class="text-slate-400 text-sm mb-6">Orientation ciblée vers la conception d'ouvrages durables adaptées aux besoins de modernisation des réseaux de transport et du bâtiment.</p>
+                    <span class="inline-block px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">Génie Civil</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-24 px-6 border-t border-slate-900">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Restons en <span class="text-emerald-400">Contact</span></h2>
+            <p class="text-slate-400 mb-10">Pour toute opportunité académique, projet collaboratif ou échange professionnel, vous pouvez me joindre directement.</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="mailto:s.delmar@hestim.ma" class="px-6 py-4 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-400 transition-all flex items-center justify-center gap-3 text-slate-200">
+                    <i class="fa-solid fa-envelope text-emerald-400 text-xl"></i>
+                    <span>s.delmar@hestim.ma</span>
+                </a>
+                <a href="https://www.linkedin.com/in/samuel-delmar" target="_blank" class="px-6 py-4 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-400 transition-all flex items-center justify-center gap-3 text-slate-200">
+                    <i class="fa-brands fa-linkedin text-[#0077b5] text-xl"></i>
+                    <span>Profil LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center border-t border-slate-900 text-slate-500 text-sm">
+        <p>&copy; 2026 DELMAR Samuel • HESTIM Génie Civil. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
